@@ -45,7 +45,8 @@
     background-color: white;
 
 }
-.button{
+.button,
+.button::before{
     width: 288px;
     height: 50px;
     margin-left: 16px;
@@ -62,6 +63,20 @@
 
 
 }
+.button:hover {
+    color: #1a2236;
+    background-color:white ;
+    border: solid #1a2236 3px;
+    box-sizing: border-box;
+
+
+}
+.button:focus {
+    color: #1a2236;
+    background-color:white ;
+    border: solid #1a2236 1px;
+    box-sizing: border-box;
+}
 .lower{
     background-image: url('./assests/images/image_geometry_2.png');
     background-position: center;
@@ -69,7 +84,6 @@
     margin-top: 32px;
     background-color: whitesmoke;
     height: 30%;
-    
 }
 .paragraph {
 font-family: 'Poppins', sans-serif;
