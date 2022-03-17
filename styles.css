@@ -11,7 +11,7 @@
   color: #1a2236;
 }
 
-  .contain {
+.contain {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -96,4 +96,3 @@
   letter-spacing: -0.01em;
   margin-left: 16px;
 }
-
