@@ -1,30 +1,82 @@
 .my-name{
-    font-family: 'Play Display';
+    font-family: sans-serif;
     width: 220px;
+    height: 100px;
     font-size: 50px;
     margin-left: 16px;
     font-weight: 400;
     font-style: normal;
-    border: solid red;
+    line-height: 100%;
+    color: #1a2236;
+
 
 }
 .contain{
-    display: flex;
-    border: solid 10px red;
-    flex-direction: column;
-    width: 320px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 320px;
     
 }
 .upper{
+    background-image: url('./assests/images/image_geometry_1.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 160px;
     display: flex;
-    flex-direction: row-reverse;
-    border: solid red;
-    flex-wrap: wrap;
-    justify-content: center;}
+    justify-content: end;
+    margin-top: 0px;
+
+}
 .image{
-    width: 10%;
-    border: solid red;
-    padding: 50px;
+    width: 14px;
+    height: 20px;
+    align-content: center;
+    align-self: center;
+    margin-right: 16px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+
+}
+.button{
+    width: 288px;
+    height: 50px;
+    margin-left: 16px;
+    top: 402px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    background-color: #1a2236;
+
+
+}
+.lower{
+    background-image: url('./assests/images/image_geometry_2.png');
+    background-position: center;
+    padding: 20px;
+    margin-top: 32px;
+    background-color: whitesmoke;
+    height: 30%;
+    
+}
+.paragraph {
+font-family:fantasy;
+font-style: normal;
+font-weight: 400;
+width: 288px;
+height: 126px; 
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+margin-left: 16px;
 }
    
