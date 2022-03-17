@@ -20,9 +20,11 @@
     display: flex;
     flex-direction: row-reverse;
     border: solid red;
-}
-.upper .up-image{
+    flex-wrap: wrap;
+    justify-content: center;}
+.image{
     width: 10%;
     border: solid red;
+    padding: 50px;
 }
    
