@@ -5,6 +5,7 @@
     margin-left: 16px;
     font-weight: 400;
     font-style: normal;
+    border: solid red;
 
 }
 .contain{
@@ -12,5 +13,16 @@
     border: solid 10px red;
     flex-direction: column;
     width: 320px;
+    height: 100vh;
+    
+}
+.upper{
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid red;
+}
+.upper .up-image{
+    width: 10%;
+    border: solid red;
 }
    
