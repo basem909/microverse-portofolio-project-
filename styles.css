@@ -8,7 +8,8 @@
   font-weight: 400;
   font-style: normal;
   line-height: 100%;
-  color: #1a2236; }
+  color: #1a2236;
+  }
 
   .contain {
   height: 100vh;
@@ -16,7 +17,8 @@
   flex-direction: column;
   background-color: white;
   width: 320px;
-  padding-left: 0px; }
+  padding-left: 0px;
+  }
 
 .upper {
   background-image: url('./assests/images/image_geometry_1.png');
@@ -25,20 +27,23 @@
   height: 160px;
   display: flex;
   justify-content: end;
-  margin-top: 0px; }
+  margin-top: 0px;
+  }
 
 .image {
   width: 28px;
   height: 20px;
   align-content: center;
   align-self: center;
-  margin-right: 16px; }
+  margin-right: 16px;
+  }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white; }
+  background-color: white;
+  }
 
 .button,
 .button::before {
@@ -54,19 +59,22 @@
   line-height: 24px;
   text-align: center;
   color: white;
-  background-color: #1a2236; }
+  background-color: #1a2236;
+  }
 
 .button:hover {
   color: #1a2236;
-  background-color:white ;
+  background-color: white ;
   border: solid #1a2236 3px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  }
 
 .button:focus {
   color: #1a2236;
-  background-color:white ;
+  background-color: white ;
   border: solid #1a2236 1px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  }
 
 .lower {
   background-image: url('./assests/images/image_geometry_2.png');
@@ -74,7 +82,8 @@
   padding: 20px;
   margin-top: 32px;
   background-color: whitesmoke;
-  height: 30%; }
+  height: 30%;
+  }
 
 .paragraph {
   font-family: 'Poppins', sans-serif;
@@ -85,5 +94,6 @@
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  margin-left: 16px; }
+  margin-left: 16px;
+  }
  
