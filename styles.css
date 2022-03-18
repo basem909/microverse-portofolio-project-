@@ -1,14 +1,27 @@
-.container {
+.my-name {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  width: 220px;
+  height: 100px;
+  font-size: 50px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.contain {
   height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: auto;
+  width: 320px;
   padding-left: 0;
 }
 
 .upper {
-  background-image: url("./assests/images/image_geometry_1.png");
+  background-image: url('./assests/images/image_geometry_1.png');
   background-color: white;
   background-repeat: no-repeat;
   height: 160px;
@@ -21,7 +34,7 @@
   width: 28px;
   height: 20px;
   align-content: center;
-  align-self: auto;
+  align-self: center;
   margin-right: 16px;
   margin-top: 19px;
 }
@@ -33,25 +46,14 @@
   background-color: white;
 }
 
-.my-name {
-  font-family: "Playfair Display", serif;
-  width: auto;
-  height: 100px;
-  font-size: 50px;
-  margin-left: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 100%;
-  color: #1a2236;
-}
-
 .button,
 .button::before {
   width: 288px;
   height: 50px;
+  margin-left: 16px;
   top: 402px;
-  align-self: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -75,23 +77,23 @@
   box-sizing: border-box;
 }
 
-.paragraph {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  width: auto;
-  height: 126px;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  margin-left: 16px;
-}
-
 .lower {
-  background-image: url("./assests/images/image_geometry_2.png");
+  background-image: url('./assests/images/image_geometry_2.png');
   background-position: center;
   padding: 20px;
   margin-top: 32px;
   background-color: whitesmoke;
   height: 30%;
+}
+
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 288px;
+  height: 126px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  margin-left: 16px;
 }
