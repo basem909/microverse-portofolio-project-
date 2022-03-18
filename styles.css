@@ -90,8 +90,88 @@
 .lower {
   background-image: url("./assests/images/image_geometry_2.png");
   background-position: center;
-  padding: 20px;
+  padding: 20%;
   margin-top: 32px;
-  background-color: whitesmoke;
+  background-color: white;
   height: 160px;
+  background-repeat: no-repeat;
+}
+.header-project {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  height: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 100%;
+  font-style: normal;
+  padding-bottom: 32px;
+}
+.image-project {
+  height: 188px;
+  width: 100%;
+}
+.name-project {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300, lighter;
+  font-size: 20px;
+  line-height: 80%;
+  color: #ffffff;
+  background-color: #1a2236;
+}
+.lang-group {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.lang-project {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300, lighter;
+  font-size: 10.3334px;
+  line-height: 80%;
+  font-style: normal;
+  color: #1a2236;
+  background-color: #98dede;
+  height: 20px;
+  border: none;
+  max-width: 100px;
+}
+
+.details-project {
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+  height: 156px;
+  padding-left: 20px;
+}
+.button-project,
+.button-project::before {
+  width: 288px;
+  height: 50px;
+  top: 402px;
+  align-self: left;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  background-color: #1a2236;
+}
+
+.button-project:hover {
+  color: #1a2236;
+  background-color: white;
+  border: solid #1a2236 3px;
+  box-sizing: border-box;
+}
+
+.button-project:focus {
+  color: #1a2236;
+  background-color: white;
+  border: solid #1a2236 1px;
+  box-sizing: border-box;
 }
