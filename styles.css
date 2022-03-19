@@ -108,8 +108,9 @@
   padding-bottom: 32px;
 }
 .image-project {
-  height: 188px;
+  height: 100%;
   width: 100%;
+  background-color: #1a2236;
 }
 .name-project {
   font-family: "Poppins", sans-serif;
@@ -137,13 +138,15 @@
   height: 20px;
   border: none;
   max-width: 100px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .details-project {
   background-color: #1a2236;
   display: flex;
   flex-direction: column;
-  height: 156px;
+  height: 200px;
   padding-left: 20px;
 }
 .button-project,
@@ -160,6 +163,8 @@
   text-align: center;
   color: white;
   background-color: #1a2236;
+  border: 0.33px solid white;
+  align-items: baseline;
 }
 
 .button-project:hover {
@@ -174,4 +179,11 @@
   background-color: white;
   border: solid #1a2236 1px;
   box-sizing: border-box;
+}
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+span {
+  text-align: center;
 }
