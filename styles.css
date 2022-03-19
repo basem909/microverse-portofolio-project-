@@ -15,6 +15,7 @@
   display: flex;
   justify-content: end;
   margin-top: 0;
+  padding-bottom: 30px;
 }
 
 .image {
@@ -233,4 +234,100 @@
 }
 #cv-span {
   padding-left: 20px;
+}
+
+.languages {
+  height: 289px;
+  width: 100%;
+  background-image: url("./assests/images/icon-lang.png");
+  background-color: #1c528a;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.lang-header {
+  height: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+}
+.languages > ul {
+  list-style: inside;
+  height: 135px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #ffffff;
+}
+
+.frameworks {
+  height: 289px;
+  width: 100%;
+  background-image: url("./assests/images/ic_framework.svg");
+  background-color: #e2505c;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.frame-header {
+  height: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+}
+.frameworks > ul {
+  list-style: inside;
+  height: 135px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #ffffff;
+}
+
+.skills {
+  height: 289px;
+  width: 100%;
+  background-image: url("./assests/images/ic_skills.svg");
+  background-color: #febf52;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.skills-header {
+  height: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+}
+.skills > ul {
+  list-style: inside;
+  height: 135px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #ffffff;
 }
