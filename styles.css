@@ -164,7 +164,9 @@
   color: white;
   background-color: #1a2236;
   border: 0.33px solid white;
-  align-items: baseline;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 .button-project:hover {
