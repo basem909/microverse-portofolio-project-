@@ -96,6 +96,11 @@
   height: 160px;
   background-repeat: no-repeat;
 }
+.container-projects {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 1px;
+}
 .header-project {
   margin-top: 20px;
   margin-bottom: 16px;
@@ -106,6 +111,10 @@
   line-height: 100%;
   font-style: normal;
   padding-bottom: 32px;
+}
+.project {
+  display: grid;
+  grid-template-rows: auto auto;
 }
 .image-project {
   height: 100%;
