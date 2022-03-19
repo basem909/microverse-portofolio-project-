@@ -126,6 +126,8 @@
   grid-template-columns: 100px 100px 100px;
   gap: 10px;
   margin-bottom: 20px;
+  padding-inline-start: 0px;
+  list-style: none;
 }
 .lang-project {
   font-family: "Poppins", sans-serif;
@@ -182,10 +184,7 @@
   border: solid #1a2236 1px;
   box-sizing: border-box;
 }
-ul {
-  padding-inline-start: 0px;
-  list-style: none;
-}
+
 span {
   text-align: center;
 }
