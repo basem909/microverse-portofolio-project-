@@ -96,11 +96,13 @@
   height: 160px;
   background-repeat: no-repeat;
 }
+
 .container-projects {
   display: grid;
   grid-template-rows: auto auto auto auto;
   gap: 1px;
 }
+
 .header-project {
   margin-top: 20px;
   margin-bottom: 16px;
@@ -112,35 +114,40 @@
   font-style: normal;
   padding-bottom: 32px;
 }
+
 .project {
   display: grid;
   grid-template-rows: auto auto;
 }
+
 .image-project {
   height: 100%;
   width: 100%;
   background-color: #1a2236;
 }
+
 .name-project {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 300, lighter;
+  font-weight: 300 lighter;
   font-size: 20px;
   line-height: 80%;
-  color: #ffffff;
+  color: white;
   background-color: #1a2236;
 }
+
 .lang-group {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   gap: 10px;
   margin-bottom: 20px;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
   list-style: none;
 }
+
 .lang-project {
   font-family: "Poppins", sans-serif;
-  font-weight: 300, lighter;
+  font-weight: 300 lighter;
   font-size: 10.3334px;
   line-height: 80%;
   font-style: normal;
@@ -160,12 +167,13 @@
   height: 200px;
   padding-left: 20px;
 }
+
 .button-project,
 .button-project::before {
   width: 288px;
   height: 50px;
   top: 402px;
-  align-self: left;
+  align-self: flex-start;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -202,6 +210,7 @@
   line-height: 100%;
   color: #1a2236;
 }
+
 .about-paragraph {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -210,6 +219,7 @@
   line-height: 21px;
   color: #1a2236;
 }
+
 .cv-button,
 .cv-button::before {
   width: 100%;
@@ -241,6 +251,7 @@
   border: solid #1a2236 1px;
   box-sizing: border-box;
 }
+
 #cv-span {
   padding-left: 20px;
 }
@@ -256,16 +267,18 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
 .lang-header {
   height: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 30px;
-  color: #ffffff;
+  color: white;
   font-family: "Poppins", sans-serif;
   padding-left: 40px;
 }
+
 .languages > ul {
   list-style: inside;
   height: 135px;
@@ -274,7 +287,7 @@
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
-  color: #ffffff;
+  color: white;
 }
 
 .frameworks {
@@ -288,16 +301,18 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
 .frame-header {
   height: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 30px;
-  color: #ffffff;
+  color: white;
   font-family: "Poppins", sans-serif;
   padding-left: 40px;
 }
+
 .frameworks > ul {
   list-style: inside;
   height: 135px;
@@ -306,7 +321,7 @@
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
-  color: #ffffff;
+  color: white;
 }
 
 .skills {
@@ -320,16 +335,18 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
 .skills-header {
   height: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 30px;
-  color: #ffffff;
+  color: white;
   font-family: "Poppins", sans-serif;
   padding-left: 40px;
 }
+
 .skills > ul {
   list-style: inside;
   height: 135px;
@@ -338,5 +355,5 @@
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
-  color: #ffffff;
+  color: white;
 }
