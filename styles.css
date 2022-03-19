@@ -129,7 +129,7 @@
 .name-project {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 300 lighter;
+  font-weight: 300;
   font-size: 20px;
   line-height: 80%;
   color: white;
@@ -147,7 +147,7 @@
 
 .lang-project {
   font-family: "Poppins", sans-serif;
-  font-weight: 300 lighter;
+  font-weight: 300;
   font-size: 10.3334px;
   line-height: 80%;
   font-style: normal;
