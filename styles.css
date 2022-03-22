@@ -357,5 +357,15 @@
   letter-spacing: -0.0525em;
   color: white;
 }
+
 .contact {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  background-image: url(./assests/images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  margin-top: 50px;
 }
