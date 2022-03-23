@@ -359,14 +359,15 @@
 }
 
 .contact {
-  height: 1500px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
   background-image: url(./assests/images/image_geometry_1.png);
   background-repeat: no-repeat;
-  padding-top: 100px;
+  padding-top: 30px;
+  padding-left: 20px;
   margin-top: 50px;
   width: auto;
 }
@@ -387,4 +388,17 @@
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
+}
+
+.contact-form {
+  margin-top: 14px;
+}
+.contact-form > ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.contact-form > ul > li {
+  display: flex;
+  flex-direction: column;
+  border: solid red 1px;
 }
