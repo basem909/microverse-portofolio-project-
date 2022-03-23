@@ -6,27 +6,62 @@
   width: auto;
   padding-left: 0;
 }
+@media screen and (max-width: 768px) {
+  .upper {
+    background-image: url("./assests/images/image_geometry_1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 160px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
 
-.upper {
-  background-image: url("./assests/images/image_geometry_1.png");
-  background-color: white;
-  background-repeat: no-repeat;
-  height: 160px;
-  display: flex;
-  justify-content: end;
-  margin-top: 0;
-  padding-bottom: 30px;
+  .image {
+    width: 28px;
+    height: 20px;
+    align-content: center;
+    align-self: auto;
+    margin-right: 16px;
+    margin-top: 19px;
+  }
+
+  .navigator > a {
+    display: none;
+  }
 }
+@media screen and (min-width: 768px) {
+  .upper {
+    background-color: white;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
 
-.image {
-  width: 28px;
-  height: 20px;
-  align-content: center;
-  align-self: auto;
-  margin-right: 16px;
-  margin-top: 19px;
+  .image {
+    display: none;
+  }
+
+  .navigator {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+  }
+  .navigator > a {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    color: #1a2236;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    padding-top: 38px;
+    text-decoration: none;
+  }
 }
-
 .content {
   display: flex;
   flex-direction: column;
