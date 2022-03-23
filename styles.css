@@ -6,7 +6,7 @@
   width: auto;
   padding-left: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .upper {
     background-image: url("./assests/images/image_geometry_1.png");
     background-color: white;
@@ -38,7 +38,6 @@
     display: flex;
     justify-content: center;
     margin-top: 0;
-    padding-bottom: 30px;
   }
 
   .image {
@@ -47,8 +46,8 @@
 
   .navigator {
     display: flex;
-    justify-content: space-between;
-    width: 33%;
+    justify-content: space-around;
+    width: 40%;
   }
   .navigator > a {
     display: block;
@@ -131,7 +130,44 @@
   height: 160px;
   background-repeat: repeat-x;
 }
+@media screen and (min-width: 768px) {
+  .hello-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
 
+  .content {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 0.5fr;
+    gap: 50px;
+    align-items: center;
+  }
+
+  }
+
+  .lower {
+    background-image: url("./assests/images/Thur.png");
+    background-position: center;
+    padding: 50%;
+    margin-top: 32px;
+    background-color: white;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
+  .my-name {
+    font-size: 110px;
+    padding-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .paragraph {
+    padding-right: 30px;
+  }
+  .button {
+    margin-left: 16px;
+  }
+}
 .container-projects {
   display: grid;
   grid-template-rows: auto auto auto auto;
