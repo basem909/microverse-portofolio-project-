@@ -94,7 +94,7 @@
   margin-top: 32px;
   background-color: white;
   height: 160px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 
 .container-projects {
@@ -393,10 +393,12 @@
 .contact-form {
   margin-top: 14px;
 }
+
 .contact-form > ul {
   list-style: none;
   padding-inline-start: 0px;
 }
+
 .contact-form > ul > li {
   display: flex;
   flex-direction: column;
@@ -404,6 +406,12 @@
   margin-top: 8px;
   margin-right: 14px;
 }
+
+.contact-form > ul > li:focus-within {
+  border: solid #1a2236 1px;
+  border-radius: 4px;
+}
+
 textarea,
 textarea::before {
   height: 150px;
@@ -412,17 +420,25 @@ textarea::before {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
-textarea::marker {
+
+textarea:focus {
   border: 1px solid #1a2236;
-  box-sizing: border-box;
   border-radius: 4px;
+  box-sizing: content-box;
 }
+
 input {
   border: none;
   padding-left: 16px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
+
+input:focus {
+  border: #1a2236 1px solid;
+  box-sizing: content-box;
+}
+
 label {
   height: 15px;
   font-family: "Poppins", sans-serif;
@@ -434,23 +450,28 @@ label {
   padding-left: 16px;
   background-color: white;
 }
+
 #li-btn {
   border: none;
 }
+
 .contact-lower {
   background-color: #1a2236;
   height: 300px;
 }
+
 .social-contact {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
 }
+
 .social-media {
   display: flex;
   justify-content: space-around;
   padding-top: 30px;
 }
+
 #teal-link {
   padding-left: 20px;
   padding-top: 30px;
@@ -462,6 +483,7 @@ label {
   color: #92dcdc;
   align-items: baseline;
 }
+
 #teal-link > img {
   padding-left: 20px;
 }
