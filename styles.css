@@ -396,7 +396,7 @@
 
 .contact-form > ul {
   list-style: none;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 
 .contact-form > ul > li {
