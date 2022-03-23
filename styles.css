@@ -359,7 +359,7 @@
 }
 
 .contact {
-  height: 1000px;
+  height: 2000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -400,5 +400,24 @@
 .contact-form > ul > li {
   display: flex;
   flex-direction: column;
-  border: solid red 1px;
+  border: solid #dfdfe0 1px;
+  margin-top: 8px;
+}
+textarea {
+  height: 150px;
+}
+input {
+  border: none;
+  padding-left: 16px;
+  font-size: 14px;
+}
+label {
+  height: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+  padding-left: 16px;
 }
