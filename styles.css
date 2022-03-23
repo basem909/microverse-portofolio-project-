@@ -363,7 +363,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: #f9f9fa;
   background-image: url(./assests/images/image_geometry_1.png);
   background-repeat: no-repeat;
   padding-top: 30px;
@@ -405,11 +405,16 @@
 }
 textarea {
   height: 150px;
+  border: solid #dfdfe0 1px;
+  padding: 16px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
 }
 input {
   border: none;
   padding-left: 16px;
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
 }
 label {
   height: 15px;
@@ -420,4 +425,8 @@ label {
   line-height: 15px;
   color: #7d7c84;
   padding-left: 16px;
+  background-color: white;
+}
+#li-btn {
+  border: none;
 }
