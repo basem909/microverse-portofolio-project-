@@ -402,13 +402,20 @@
   flex-direction: column;
   border: solid #dfdfe0 1px;
   margin-top: 8px;
+  margin-right: 14px;
 }
-textarea {
+textarea,
+textarea::before {
   height: 150px;
   border: solid #dfdfe0 1px;
   padding: 16px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
+}
+textarea::marker {
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 input {
   border: none;
@@ -429,4 +436,32 @@ label {
 }
 #li-btn {
   border: none;
+}
+.contact-lower {
+  background-color: #1a2236;
+  height: 300px;
+}
+.social-contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+#teal-link {
+  padding-left: 20px;
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #92dcdc;
+  align-items: baseline;
+}
+#teal-link > img {
+  padding-left: 20px;
 }
