@@ -230,7 +230,7 @@
   background-color: #98dede;
   height: 20px;
   border: none;
-  max-width: 100px;
+  min-width: 100px;
   text-align: center;
   padding-top: 10px;
 }
@@ -239,7 +239,7 @@
   background-color: #1a2236;
   display: flex;
   flex-direction: column;
-  height: auto;
+  min-height: 200px;
   padding-left: 20px;
 }
 
@@ -276,20 +276,88 @@
   border: solid #1a2236 1px;
   box-sizing: border-box;
 }
+#btn1 {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .header-project {
     transform: rotate(270deg);
     padding-left: 20px;
   }
+
+  #lll {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background-image: url(./assests/images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
   .project {
     grid-template-columns: 33% 33% 33%;
     margin-top: 120px;
+    gap: 0;
   }
   #project1 {
     grid-column: span 2;
     display: grid;
     grid-template-rows: 33% 66%;
+  }
+  .details-project {
+    justify-content: space-around;
+  }
+  .name-project {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .lang-project {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .lang-group {
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: auto;
+    gap: 5%;
+    margin-top: 0;
+  }
+  #btn {
+    display: none;
+  }
+  #btn1,
+  #btn::before {
+    display: block;
+    width: 288px;
+    height: 50px;
+    top: 402px;
+    align-self: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1a2236;
+    background-color: white;
+    border: 0.33px solid #1a2236;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  #btn1:hover {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 3px;
+    box-sizing: border-box;
+  }
+
+  #btn1:focus {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 1px;
+    box-sizing: border-box;
   }
 }
 
