@@ -239,7 +239,7 @@
   background-color: #1a2236;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: auto;
   padding-left: 20px;
 }
 
@@ -275,6 +275,22 @@
   background-color: white;
   border: solid #1a2236 1px;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .header-project {
+    transform: rotate(270deg);
+    padding-left: 20px;
+  }
+  .project {
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 120px;
+  }
+  #project1 {
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows: 33% 66%;
+  }
 }
 
 .about-header {
