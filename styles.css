@@ -367,7 +367,7 @@
     justify-content: space-around;
   }
 
-  .button-project768 :hover {
+  .button-project768:hover {
     color: white;
     background-color: #1a2236;
     border: solid white 3px;
@@ -827,4 +827,14 @@ label {
 
 #teal-link > img {
   padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .social-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+  }
+  .social-contact {
+    width: 50px;
+  }
 }
