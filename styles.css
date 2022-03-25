@@ -276,7 +276,7 @@
   border: solid #1a2236 1px;
   box-sizing: border-box;
 }
-#btn1 {
+.button-project768 {
   display: none;
 }
 
@@ -349,11 +349,11 @@
     gap: 5%;
     margin-top: 0;
   }
-  #btn {
+  .button-project {
     display: none;
   }
-  #btn1,
-  #btn::before {
+  .button-project768,
+  .button-project768::before {
     display: block;
     width: 288px;
     height: 50px;
@@ -373,14 +373,14 @@
     justify-content: space-around;
   }
 
-  #btn1:hover {
+  .button-project768 :hover {
     color: white;
     background-color: #1a2236;
     border: solid white 3px;
     box-sizing: border-box;
   }
 
-  #btn1:focus {
+  .button-project768:focus {
     color: white;
     background-color: #1a2236;
     border: solid white 1px;
