@@ -642,20 +642,21 @@
 @media screen and (min-width: 768px) {
   .about-package {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 55% 45%;
     margin-top: 100px;
   }
 
   .package {
     display: grid;
     grid-template-columns: auto auto;
-    padding-left: 5%;
+    margin-left: 20%;
+    margin-right: 25px;
   }
 
   .languages,
   .frameworks,
   .skills {
-    max-height: 289px;
+    height: auto;
   }
 
   .skills {
@@ -669,7 +670,8 @@
   }
 
   .about-container {
-    padding-left: 20%;
+    padding-left: 25px;
+    margin-right: 20%;
   }
 
   .about-paragraph {
