@@ -6,6 +6,7 @@
   width: auto;
   padding-left: 0;
 }
+
 @media screen and (max-width: 767px) {
   .upper {
     background-image: url("./assests/images/image_geometry_1.png");
@@ -31,6 +32,7 @@
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
   .upper {
     background-color: white;
@@ -49,6 +51,7 @@
     justify-content: space-around;
     width: 40%;
   }
+
   .navigator > a {
     display: block;
     font-family: "Poppins", sans-serif;
@@ -61,6 +64,7 @@
     text-decoration: none;
   }
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -130,6 +134,7 @@
   height: 160px;
   background-repeat: repeat-x;
 }
+
 @media screen and (min-width: 768px) {
   .hello-content {
     display: grid;
@@ -155,17 +160,20 @@
     background-color: white;
     min-height: 450px;
   }
+
   .my-name {
     font-size: 110px;
     padding-right: 15px;
     margin-top: 15%;
     margin-bottom: 50px;
   }
+
   .paragraph {
     padding-right: 30px;
     font-size: 20px;
     margin-top: 90px;
   }
+
   .button {
     margin-left: 16px;
     align-self: flex-start;
@@ -270,6 +278,7 @@
   border: solid #1a2236 1px;
   box-sizing: border-box;
 }
+
 .button-project768 {
   display: none;
 }
@@ -289,66 +298,95 @@
     background-position: bottom right;
     grid-area: projects;
   }
+
   .project {
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: auto 100px auto auto 100px auto auto auto auto;
+    grid-template-rows: auto 100px auto auto 100px auto auto auto auto auto;
     grid-template-areas:
       "projects projects projects project1 project1 project1 project1 project1 project1 project1"
-      ". . . . . . . . . ."
-      "project2 project2 project2 project2 . . . . . . "
+      ". . . . . . back1 back1 back1 ."
+      "project2 project2 project2 project2 . . back1 back1 back1 . "
       "project2 project2 project2 project2 . . . . . . "
       ". . . . . . project3 project3 project3 project3"
       "project4 project4 project4 project4 project4 .  project3 project3 project3 project3  "
-      "project4 project4 project4 project4 project4 . . . . ."
-      ". . . . . . project5 project5 project5 project5"
-      ".  project6 project6 project6 project6 . . . . . ";
+      "project4 project4 project4 project4 project4 . back2 back2 back2 back2"
+      "back3 back3 back3 . . . project5 project5 project5 project5"
+      "back3 back3 back3 project6 project6 project6 project6  . . . "
+      "back3 back3 back3 . . . . . . .";
     margin-top: 120px;
     gap: 0;
   }
+
+  .back1 {
+    background-image: url(./assests/images/image-geometry_2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-area: back1;
+    padding: 70%;
+  }
+
+  .back2 {
+    background-image: url(./assests/images/image-geometry_3.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-area: back2;
+    padding-top: 90%;
+  }
+
   .project1 {
     grid-area: project1;
     display: grid;
     overflow: hidden;
   }
+
   .project2 {
     grid-area: project2;
   }
+
   .project3 {
     grid-area: project3;
   }
+
   .project4 {
     grid-area: project4;
   }
+
   .project5 {
     grid-area: project5;
   }
+
   .project6 {
     grid-area: project6;
   }
+
   .details-project {
     justify-content: space-around;
   }
+
   #name-project1 {
     font-size: 45px;
     margin-top: 20px;
     margin-bottom: 15px;
   }
+
   #lang-project1 {
     font-size: 20px;
     padding: 10px;
   }
+
   #lang-group1 {
     grid-template-columns: max-content max-content max-content;
     grid-template-rows: auto;
     gap: 5%;
     margin-top: 0;
   }
+
   .button-project {
     display: none;
   }
+
   .button-project768,
   .button-project768::before {
-    display: block;
     width: 288px;
     height: 50px;
     top: 402px;
@@ -380,6 +418,7 @@
     border: solid white 1px;
     box-sizing: border-box;
   }
+
   .image-project1,
   .image-project2,
   .image-project3,
@@ -389,6 +428,7 @@
     height: 100%;
     width: 100%;
   }
+
   .project2,
   .project3,
   .project4,
@@ -396,6 +436,7 @@
   .project6 {
     display: grid;
   }
+
   #details-project1,
   #details-project2,
   #details-project3,
@@ -404,6 +445,11 @@
   #details-project6 {
     display: none;
   }
+
+  #details-project3 {
+    display: none;
+  }
+
   .project1:hover #details-project1,
   .project2:hover #details-project2,
   .project3:hover #details-project3,
@@ -415,9 +461,6 @@
 
   #image-project3 {
     grid-area: project3;
-  }
-  #details-project3 {
-    display: none;
   }
 }
 
@@ -576,36 +619,44 @@
   letter-spacing: -0.0525em;
   color: white;
 }
+
 @media screen and (min-width: 768px) {
   .about-package {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 100px;
   }
+
   .package {
     display: grid;
     grid-template-columns: auto auto;
     padding-left: 5%;
   }
+
   .languages,
   .frameworks,
   .skills {
     max-height: 289px;
   }
+
   .skills {
     margin-top: 0;
   }
+
   .package-background {
     background-image: url(./assests/images/image_dots_with_teal.png);
     background-repeat: no-repeat;
     background-position: bottom;
   }
+
   .about-container {
     padding-left: 20%;
   }
+
   .about-paragraph {
     padding-right: 20%;
   }
+
   .cv-button {
     max-width: 50%;
   }
@@ -707,6 +758,7 @@ label {
 #li-btn {
   border: none;
 }
+
 #ms-lb {
   display: none;
 }
@@ -720,6 +772,7 @@ label {
     background-repeat: no-repeat;
     background-position: left top;
   }
+
   .introduction-contact {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -728,14 +781,17 @@ label {
       ". header header header ."
       ". paragraph paragraph paragraph .";
   }
+
   .contact-header {
     grid-area: header;
     font-size: 90px;
   }
+
   .contact-paragraph {
     grid-area: paragraph;
     font-size: 20px;
   }
+
   .contact-form > ul {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
@@ -764,31 +820,40 @@ label {
     grid-area: button;
     padding-left: 15%;
   }
+
   .contact-form > ul > li {
     border: none;
   }
+
   .contact-form > ul > li:focus-within {
     border: none;
   }
+
   label {
     color: black;
     background-color: inherit;
   }
+
   input {
     border: solid #e0e0e0 1px;
   }
+
   input :focus {
     border: #252c40 solid 2px;
   }
+
   textarea {
     border: solid #e0e0e0 1px;
   }
+
   textarea :focus {
     border: #252c40 solid 2px;
   }
+
   #ms-lb {
     display: block;
   }
+
   form {
     background-image: url(./assests/images/image-geometry_7.png);
     background-repeat: no-repeat;
@@ -828,19 +893,23 @@ label {
 #teal-link > img {
   padding-left: 20px;
 }
+
 @media screen and (min-width: 768px) {
   .social-contact {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px;
   }
+
   .link {
     padding-top: 5%;
     padding-left: 15%;
   }
+
   .social-media {
     justify-content: center;
   }
+
   .social-media > a {
     margin-left: 5%;
   }
