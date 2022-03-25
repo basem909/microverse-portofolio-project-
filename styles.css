@@ -707,6 +707,9 @@ label {
 #li-btn {
   border: none;
 }
+#ms-lb {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .contact {
@@ -732,6 +735,64 @@ label {
   .contact-paragraph {
     grid-area: paragraph;
     font-size: 20px;
+  }
+  .contact-form > ul {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      ". user email ."
+      ". message message . "
+      ". message message . "
+      ". button button .";
+    gap: 10px;
+  }
+
+  .user {
+    grid-area: user;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .message {
+    grid-area: message;
+  }
+
+  #li-btn {
+    grid-area: button;
+    padding-left: 15%;
+  }
+  .contact-form > ul > li {
+    border: none;
+  }
+  .contact-form > ul > li:focus-within {
+    border: none;
+  }
+  label {
+    color: black;
+    background-color: inherit;
+  }
+  input {
+    border: solid #e0e0e0 1px;
+  }
+  input :focus {
+    border: #252c40 solid 2px;
+  }
+  textarea {
+    border: solid #e0e0e0 1px;
+  }
+  textarea :focus {
+    border: #252c40 solid 2px;
+  }
+  #ms-lb {
+    display: block;
+  }
+  form {
+    background-image: url(./assests/images/image-geometry_7.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 }
 

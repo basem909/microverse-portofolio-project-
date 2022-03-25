@@ -297,7 +297,7 @@
           method="post"
         >
           <ul>
-            <li>
+            <li class="user">
               <label for="name">Name:</label>
               <input
                 type="text"
@@ -308,7 +308,7 @@
                 maxlength="30"
               />
             </li>
-            <li>
+            <li class="email">
               <label for="mail">E-mail:</label>
               <input
                 type="email"
@@ -318,8 +318,9 @@
                 required
               />
             </li>
-            <li>
-              <textarea
+            <li class="message">
+              <label id="ms-lb">Message</label
+              ><textarea
                 id="msg"
                 name="user_message"
                 placeholder="Enter you massage here ..."
