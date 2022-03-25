@@ -585,12 +585,12 @@
   .package {
     display: grid;
     grid-template-columns: auto auto;
+    padding-left: 5%;
   }
   .languages,
   .frameworks,
   .skills {
     max-height: 289px;
-    max-width: 289px;
   }
   .skills {
     margin-top: 0;
@@ -607,7 +607,7 @@
     padding-right: 20%;
   }
   .cv-button {
-    max-width: 40%;
+    max-width: 50%;
   }
 }
 
