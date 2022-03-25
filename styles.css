@@ -59,6 +59,7 @@
   text-align: center;
   color: white;
   background-color: #1a2236;
+  transition: background-color 0.5s, border 0.5s;
 }
 
 .button:hover {
