@@ -288,6 +288,8 @@
   .header-project {
     transform: rotate(270deg);
     padding-left: 20px;
+    font-weight: 600;
+    font-size: 85px;
   }
 
   .projects {
@@ -648,9 +650,9 @@
 
   .package {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     margin-left: 20%;
-    margin-right: 25px;
+    margin-right: 50px;
   }
 
   .languages,
@@ -669,7 +671,7 @@
   }
 
   .about-container {
-    padding-left: 25px;
+    padding-left: 0;
     margin-right: 24%;
   }
 
@@ -690,11 +692,16 @@
   .skills-header,
   .lang-header,
   .frame-header {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  .skills > ul,
+  .frameworks > ul,
+  .languages > ul {
+    font-size: 15px;
   }
 
   .frameworks {
-    padding-right: 10%;
   }
 }
 
