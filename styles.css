@@ -286,37 +286,44 @@
     padding-left: 20px;
   }
 
-  #lll {
+  .projects {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     background-image: url(./assests/images/image_dots.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    grid-area: projects;
   }
   .project {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "projects project1 project1 project1"
+      "project2 back1 back2 project3"
+      "project4 project4 back3 back4"
+      "back5 back6 project5 project5";
     margin-top: 120px;
     gap: 0;
   }
-  #project1 {
-    grid-column: span 2;
+  .project1 {
+    grid-area: project1;
     display: grid;
-    grid-template-rows: 33% 66%;
+    overflow: hidden;
   }
   .details-project {
     justify-content: space-around;
   }
-  .name-project {
-    font-size: 60px;
+  #name-project1 {
+    font-size: 45px;
     margin-top: 20px;
     margin-bottom: 15px;
   }
-  .lang-project {
+  #lang-project1 {
     font-size: 20px;
     padding: 10px;
   }
-  .lang-group {
+  #lang-group1 {
     grid-template-columns: max-content max-content max-content;
     grid-template-rows: auto;
     gap: 5%;
@@ -358,6 +365,45 @@
     background-color: #1a2236;
     border: solid white 1px;
     box-sizing: border-box;
+  }
+  .image-project1,
+  .image-project2,
+  .image-project3,
+  .image-project4,
+  .image-project5,
+  .image-project6 {
+    height: 100%;
+    width: 100%;
+  }
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6 {
+    display: grid;
+  }
+  #details-project1,
+  #details-project2,
+  #details-project3,
+  #details-project4,
+  #details-project5,
+  #details-project6 {
+    display: none;
+  }
+  .project1:hover #details-project1,
+  .project2:hover #details-project2,
+  .project3:hover #details-project3,
+  .project4:hover #details-project4,
+  .project5:hover #details-project5,
+  .project6:hover #details-project6 {
+    display: block;
+  }
+
+  #image-project3 {
+    grid-area: project3;
+  }
+  #details-project3 {
+    display: none;
   }
 }
 
