@@ -4,7 +4,8 @@
 
 This project is about building a personal portfolio set up and mobile version first part is creating an entry page to the site of the portfolio
 and the second part is creating projects exhibition pages and a list of programming languages, skills, and frameworks.
-The third part is the contact form and the links to the social media accounts as well as providing a copy of the cv
+The third part is the contact form and the links to the social media accounts as well as providing a copy of the cv.
+The forth part is applying media queries to the site to make the mobile version available on different devices and to enhance th UX of the site.
 
 ## Built With
 
@@ -29,6 +30,14 @@ The third part is the contact form and the links to the social media accounts as
 👤 **Bassem Shams**
 
 - GitHub: [@githubhandle](https://github.com/basem909)
+
+👤 **Illia**
+
+- GitHub: [@githubhandle](https://github.com/aliveGUY)
+
+👤 **adaobi**
+
+- GitHub: [@githubhandle](https://github.com/adanzeakonobi)
 
 ## Show your support
 
