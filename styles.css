@@ -149,6 +149,7 @@
     background-image: url(./assests/images/image_dots.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-left: 20%;
   }
 
   .lower {
