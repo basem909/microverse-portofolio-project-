@@ -311,8 +311,8 @@
       "project4 project4 project4 project4 project4 .  project3 project3 project3 project3  "
       "project4 project4 project4 project4 project4 . back2 back2 back2 back2"
       "back3 back3 back3 . . . project5 project5 project5 project5"
-      "back3 back3 back3 project6 project6 project6 project6  . . . "
-      "back3 back3 back3 . . . . . . .";
+      "back3 back3 back3 project6 project6 project6 project6  . back4 back4 "
+      "back3 back3 back3 . . . . . back4 back4";
     margin-top: 120px;
     gap: 0;
   }
@@ -330,6 +330,22 @@
     background-repeat: no-repeat;
     background-position: left;
     grid-area: back2;
+    padding-top: 90%;
+  }
+
+  .back3 {
+    background-image: url(./assests/images/image-geometry_5.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-area: back3;
+    padding-top: 90%;
+  }
+
+  .back4 {
+    background-image: url(./assests/images/image-geometry_4.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    grid-area: back4;
     padding-top: 90%;
   }
 
@@ -369,7 +385,9 @@
     margin-bottom: 15px;
   }
 
-  #lang-project1 {
+  #lang-project1,
+  #lang-project2,
+  #lang-project3 {
     font-size: 20px;
     padding: 10px;
   }
