@@ -834,7 +834,14 @@ label {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px;
   }
-  .social-contact {
-    width: 50px;
+  .link {
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .social-media > a {
+    margin-left: 5%;
   }
 }
