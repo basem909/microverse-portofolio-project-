@@ -187,6 +187,7 @@
   align-items: center;
   display: inline-flex;
   justify-content: space-around;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .button-project:hover {
