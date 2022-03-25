@@ -223,14 +223,14 @@
 .lang-project {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 10.3334px;
+  font-size: 10px;
   line-height: 80%;
   font-style: normal;
   color: #1a2236;
   background-color: #98dede;
   height: 20px;
   border: none;
-  min-width: 100px;
+  min-width: 40px;
   text-align: center;
   padding-top: 10px;
 }
@@ -296,13 +296,18 @@
     grid-area: projects;
   }
   .project {
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: auto 100px auto auto 100px auto auto auto auto;
     grid-template-areas:
-      "projects project1 project1 project1"
-      "project2 back1 back2 project3"
-      "project4 project4 back3 back4"
-      "back5 back6 project5 project5";
+      "projects projects projects project1 project1 project1 project1 project1 project1 project1"
+      ". . . . . . . . . ."
+      "project2 project2 project2 project2 . . . . . . "
+      "project2 project2 project2 project2 . . . . . . "
+      ". . . . . . project3 project3 project3 project3"
+      "project4 project4 project4 project4 project4 .  project3 project3 project3 project3  "
+      "project4 project4 project4 project4 project4 . . . . ."
+      ". . . . . . project5 project5 project5 project5"
+      ".  project6 project6 project6 project6 . . . . . ";
     margin-top: 120px;
     gap: 0;
   }
@@ -310,6 +315,21 @@
     grid-area: project1;
     display: grid;
     overflow: hidden;
+  }
+  .project2 {
+    grid-area: project2;
+  }
+  .project3 {
+    grid-area: project3;
+  }
+  .project4 {
+    grid-area: project4;
+  }
+  .project5 {
+    grid-area: project5;
+  }
+  .project6 {
+    grid-area: project6;
   }
   .details-project {
     justify-content: space-around;
