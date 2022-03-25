@@ -666,12 +666,17 @@
   .package-background {
     background-image: url(./assests/images/image_dots_with_teal.png);
     background-repeat: no-repeat;
-    background-position: bottom;
   }
 
   .about-container {
     padding-left: 25px;
     margin-right: 20%;
+  }
+
+  .about-header {
+    font-size: 80px;
+    margin-bottom: 25px;
+    font-weight: 600;
   }
 
   .about-paragraph {
@@ -680,6 +685,14 @@
 
   .cv-button {
     max-width: 50%;
+  }
+  .skills-header,
+  .lang-header,
+  .frame-header {
+    font-size: 22px;
+  }
+  .frameworks {
+    padding-right: 10%;
   }
 }
 
