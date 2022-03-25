@@ -686,11 +686,13 @@
   .cv-button {
     max-width: 50%;
   }
+
   .skills-header,
   .lang-header,
   .frame-header {
     font-size: 22px;
   }
+
   .frameworks {
     padding-right: 10%;
   }
@@ -819,11 +821,16 @@ label {
   .contact-header {
     grid-area: header;
     font-size: 90px;
+    text-align: center;
+    margin-bottom: 30px;
   }
 
   .contact-paragraph {
     grid-area: paragraph;
     font-size: 20px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .contact-form > ul {
@@ -852,7 +859,8 @@ label {
 
   #li-btn {
     grid-area: button;
-    padding-left: 15%;
+    display: block;
+    text-align: center;
   }
 
   .contact-form > ul > li {
@@ -892,6 +900,7 @@ label {
     background-image: url(./assests/images/image-geometry_7.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-top: 0;
   }
 }
 
