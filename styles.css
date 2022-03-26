@@ -7,24 +7,62 @@
   padding-left: 0;
 }
 
-.upper {
-  background-image: url("./assests/images/image_geometry_1.png");
-  background-color: white;
-  background-repeat: no-repeat;
-  height: 160px;
-  display: flex;
-  justify-content: end;
-  margin-top: 0;
-  padding-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .upper {
+    background-image: url("./assests/images/image_geometry_1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 160px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .image {
+    width: 28px;
+    height: 20px;
+    align-content: center;
+    align-self: auto;
+    margin-right: 16px;
+    margin-top: 19px;
+  }
+
+  .navigator > a {
+    display: none;
+  }
 }
 
-.image {
-  width: 28px;
-  height: 20px;
-  align-content: center;
-  align-self: auto;
-  margin-right: 16px;
-  margin-top: 19px;
+@media screen and (min-width: 768px) {
+  .upper {
+    background-color: white;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .navigator {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+
+  .navigator > a {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    color: #1a2236;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    padding-top: 38px;
+    text-decoration: none;
+  }
 }
 
 .content {
@@ -111,10 +149,50 @@
   }
 }
 
-.container-projects {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  gap: 1px;
+@media screen and (min-width: 768px) {
+  .hello-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(./assests/images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 100px;
+  }
+
+  .lower {
+    background-image: url("./assests/images/Thur.png");
+    background-position: center;
+    padding: 38%;
+    background-repeat: repeat-x;
+    margin-top: 32px;
+    background-color: white;
+    min-height: 450px;
+  }
+
+  .my-name {
+    font-size: 110px;
+    padding-right: 15px;
+    margin-top: 15%;
+    margin-bottom: 50px;
+  }
+
+  .paragraph {
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 90px;
+  }
+
+  .button {
+    margin-left: 16px;
+    align-self: flex-start;
+  }
 }
 
 .header-project {
@@ -162,14 +240,14 @@
 .lang-project {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 10.3334px;
+  font-size: 10px;
   line-height: 80%;
   font-style: normal;
   color: #1a2236;
   background-color: #98dede;
   height: 20px;
   border: none;
-  max-width: 100px;
+  min-width: 40px;
   text-align: center;
   padding-top: 10px;
 }
@@ -178,7 +256,7 @@
   background-color: #1a2236;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  min-height: 200px;
   padding-left: 20px;
 }
 
@@ -215,6 +293,215 @@
   background-color: white;
   border: solid #1a2236 1px;
   box-sizing: border-box;
+}
+
+.button-project768 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-project {
+    transform: rotate(270deg);
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 85px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background-image: url(./assests/images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    grid-area: projects;
+  }
+
+  .project {
+    grid-template-columns: 16.2% 16.1% 17.7% 17.7% 16.1% 16.2%;
+    grid-template-rows: auto 270px 270px 270px 270px;
+    grid-template-areas:
+      "projects projects project1 project1 project1 project1"
+      "project3 project3 back1 back1 project6 project6"
+      "project2 project2 project2 . project5 project5 "
+      "project2 project2 project2  . back2 back2  "
+      "back3 . back4 project4 project4 .";
+    margin-top: 120px;
+    gap: 0;
+  }
+
+  .back1 {
+    background-image: url(./assests/images/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    grid-area: back1;
+    padding: 70%;
+  }
+
+  .back2 {
+    background-image: url(./assests/images/image-geometry_3.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    grid-area: back2;
+    padding-top: 70%;
+  }
+
+  .back3 {
+    background-image: url(./assests/images/image-geometry_5.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    grid-area: back3;
+    padding-top: 90%;
+  }
+
+  .back4 {
+    background-image: url(./assests/images/image-geometry_4.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    grid-area: back4;
+    padding-top: 90%;
+  }
+
+  .project1 {
+    grid-area: project1;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: hidden;
+  }
+
+  .project2 {
+    grid-area: project2;
+  }
+
+  .project3 {
+    grid-area: project3;
+  }
+
+  .project4 {
+    grid-area: project4;
+  }
+
+  .project5 {
+    grid-area: project5;
+  }
+
+  .project6 {
+    grid-area: project6;
+  }
+
+  .details-project {
+    justify-content: space-around;
+  }
+
+  #name-project1 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  #lang-project1,
+  #lang-project2,
+  #lang-project3 {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  #lang-group1 {
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: auto;
+    gap: 5%;
+    margin-top: 0;
+  }
+
+  .button-project {
+    display: none;
+  }
+
+  .button-project768,
+  .button-project768::before {
+    width: 288px;
+    height: 50px;
+    top: 402px;
+    align-self: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1a2236;
+    background-color: white;
+    border: 0.33px solid #1a2236;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .button-project768:hover {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 3px;
+    box-sizing: border-box;
+  }
+
+  .button-project768:focus {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 1px;
+    box-sizing: border-box;
+  }
+
+  .image-project1,
+  .image-project2,
+  .image-project3,
+  .image-project4,
+  .image-project5,
+  .image-project6 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6 {
+    display: grid;
+  }
+
+  #details-project1,
+  #details-project2,
+  #details-project3,
+  #details-project4,
+  #details-project5,
+  #details-project6 {
+    display: none;
+  }
+
+  .project1:hover {
+    grid-template-columns: 50% 50%;
+  }
+
+  .project2:hover,
+  .project3:hover,
+  .project4:hover,
+  .project5:hover,
+  .project6:hover {
+    grid-template-rows: 20% 80%;
+  }
+
+  .project1:hover #details-project1,
+  .project2:hover #details-project2,
+  .project3:hover #details-project3,
+  .project4:hover #details-project4,
+  .project5:hover #details-project5,
+  .project6:hover #details-project6 {
+    display: block;
+  }
+
+  #image-project3 {
+    grid-area: project3;
+  }
 }
 
 .about-header {
@@ -373,6 +660,67 @@
   color: white;
 }
 
+@media screen and (min-width: 768px) {
+  .about-package {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 100px;
+  }
+
+  .package {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 20%;
+    margin-right: 50px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    height: auto;
+  }
+
+  .skills {
+    margin-top: 0;
+  }
+
+  .package-background {
+    background-image: url(./assests/images/image_dots_with_teal.png);
+    background-repeat: no-repeat;
+  }
+
+  .about-container {
+    padding-left: 0;
+    margin-right: 24%;
+  }
+
+  .about-header {
+    font-size: 80px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  .about-paragraph {
+    padding-right: 20%;
+  }
+
+  .cv-button {
+    max-width: 50%;
+  }
+
+  .skills-header,
+  .lang-header,
+  .frame-header {
+    font-size: 18px;
+  }
+
+  .skills > ul,
+  .frameworks > ul,
+  .languages > ul {
+    font-size: 15px;
+  }
+}
+
 .contact {
   height: 2000px;
   display: flex;
@@ -470,6 +818,127 @@ label {
   border: none;
 }
 
+#ms-lb {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./assests/images/image-geometry_6.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  .introduction-contact {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      ". header header header ."
+      ". paragraph paragraph paragraph .";
+  }
+
+  .contact-header {
+    grid-area: header;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-paragraph {
+    grid-area: paragraph;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .contact-form > ul {
+    display: grid;
+    grid-template-columns: 28% 22% 22% 28%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      ". user email ."
+      ". message message . "
+      ". message message . "
+      ". button button .";
+    gap: 10px;
+  }
+
+  .user {
+    grid-area: user;
+    margin-top: 0;
+    min-height: 50px;
+  }
+
+  #name {
+    min-height: 50px;
+  }
+
+  .email {
+    grid-area: email;
+    margin-top: 0;
+    min-height: 50px;
+  }
+
+  #mail {
+    min-height: 50px;
+  }
+
+  .message {
+    grid-area: message;
+  }
+
+  #li-btn {
+    grid-area: button;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-form > ul > li {
+    border: none;
+  }
+
+  .contact-form > ul > li:focus-within {
+    border: none;
+  }
+
+  label {
+    color: black;
+    background-color: inherit;
+  }
+
+  input {
+    border: solid #e0e0e0 1px;
+  }
+
+  input :focus {
+    border: #252c40 solid 2px;
+  }
+
+  textarea {
+    border: solid #e0e0e0 1px;
+  }
+
+  textarea :focus {
+    border: #252c40 solid 2px;
+  }
+
+  #ms-lb {
+    display: block;
+  }
+
+  form {
+    background-image: url(./assests/images/image-geometry_7.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-top: 0;
+  }
+}
+
 .contact-lower {
   background-color: #1a2236;
   height: 300px;
@@ -501,4 +970,25 @@ label {
 
 #teal-link > img {
   padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+  }
+
+  .link {
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .social-media > a {
+    margin-left: 5%;
+  }
 }
