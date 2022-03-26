@@ -303,26 +303,20 @@
   }
 
   .project {
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: auto 40px 150px 45px 45px auto 100px 100px 100px auto auto;
+    grid-template-columns: 16.2% 16.1% 17.7% 17.7% 16.1% 16.2%;
+    grid-template-rows: auto 270px 270px 270px 270px;
     grid-template-areas:
-      "projects projects projects project1 project1 project1 project1 project1 project1 project1"
-      ". . . back1 back1 back1 project6 project6 project6 project6"
-      "project2 project2 project2  . . . . . . . "
-      "project2 project2 project2 . . . . . . . "
-      ". . . . . project4 project4 project4 project4 ."
-      "project3 project3 project3 project3 . project4  project4 project4 project4 .  "
-      "project3 project3 project3 project3 . back2 back2 back2 back2 back2"
-      " project3 project3 project3 project3 . back2 back2 back2 back2 back2 "
-      ". . . . . . project5 project5 project5 project5 "
-      "back3 back3 back3 . . . .  . back4 back4 "
-      "back3 back3 back3 . . . . . back4 back4";
+      "projects projects project1 project1 project1 project1"
+      "project3 project3 back1 back1 project6 project6"
+      "project2 project2 project2 . project5 project5 "
+      "project2 project2 project2  . back2 back2  "
+      "back3 . back4 project4 project4 .";
     margin-top: 120px;
     gap: 0;
   }
 
   .back1 {
-    background-image: url(./assests/images/image-geometry_2.png);
+    background-image: url(./assests/images/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-position: top left;
     grid-area: back1;
@@ -330,23 +324,23 @@
   }
 
   .back2 {
-    background-image: url(./assests/images/image-geometry_3.png);
+    background-image: url(./assests/images/image-geometry_3.svg);
     background-repeat: no-repeat;
     background-position: top right;
     grid-area: back2;
-    padding-top: 90%;
+    padding-top: 70%;
   }
 
   .back3 {
-    background-image: url(./assests/images/image-geometry_5.png);
+    background-image: url(./assests/images/image-geometry_5.svg);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left top;
     grid-area: back3;
     padding-top: 90%;
   }
 
   .back4 {
-    background-image: url(./assests/images/image-geometry_4.png);
+    background-image: url(./assests/images/image-geometry_4.svg);
     background-repeat: no-repeat;
     background-position: right top;
     grid-area: back4;
@@ -356,6 +350,7 @@
   .project1 {
     grid-area: project1;
     display: grid;
+    grid-template-columns: auto auto;
     overflow: hidden;
   }
 
@@ -468,8 +463,16 @@
     display: none;
   }
 
-  #details-project3 {
-    display: none;
+  .project1:hover {
+    grid-template-columns: 50% 50%;
+  }
+
+  .project2:hover,
+  .project3:hover,
+  .project4:hover,
+  .project5:hover,
+  .project6:hover {
+    grid-template-rows: 20% 80%;
   }
 
   .project1:hover #details-project1,
@@ -855,6 +858,7 @@ label {
     margin-top: 0;
     min-height: 50px;
   }
+
   #name {
     min-height: 50px;
   }
