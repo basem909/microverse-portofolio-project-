@@ -149,7 +149,6 @@
   }
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 768px) {
   .hello-content {
     display: grid;
@@ -194,12 +193,6 @@
     margin-left: 16px;
     align-self: flex-start;
   }
-=======
-.container-projects {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  gap: 1px;
->>>>>>> main
 }
 
 .header-project {
