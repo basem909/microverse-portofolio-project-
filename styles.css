@@ -97,6 +97,7 @@
   text-align: center;
   color: white;
   background-color: #1a2236;
+  transition: background-color 0.5s, border 0.5s;
 }
 
 .button:hover {
@@ -133,6 +134,19 @@
   background-color: white;
   height: 160px;
   background-repeat: repeat-x;
+  animation: slidein 5s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -264,6 +278,7 @@
   align-items: center;
   display: inline-flex;
   justify-content: space-around;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .button-project:hover {
