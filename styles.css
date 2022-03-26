@@ -304,17 +304,18 @@
 
   .project {
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: auto 100px auto auto 100px auto auto auto auto auto;
+    grid-template-rows: auto 40px 150px 45px 45px auto 100px 100px 100px auto auto;
     grid-template-areas:
       "projects projects projects project1 project1 project1 project1 project1 project1 project1"
-      ". . . . . . back1 back1 back1 ."
-      "project2 project2 project2 project2 . . back1 back1 back1 . "
-      "project2 project2 project2 project2 . . . . . . "
-      ". . . . . . project3 project3 project3 project3"
-      "project4 project4 project4 project4 project4 .  project3 project3 project3 project3  "
-      "project4 project4 project4 project4 project4 . back2 back2 back2 back2"
-      "back3 back3 back3 . . . project5 project5 project5 project5"
-      "back3 back3 back3 project6 project6 project6 project6  . back4 back4 "
+      ". . . back1 back1 back1 project6 project6 project6 project6"
+      "project2 project2 project2  . . . . . . . "
+      "project2 project2 project2 . . . . . . . "
+      ". . . . . project4 project4 project4 project4 ."
+      "project3 project3 project3 project3 . project4  project4 project4 project4 .  "
+      "project3 project3 project3 project3 . back2 back2 back2 back2 back2"
+      " project3 project3 project3 project3 . back2 back2 back2 back2 back2 "
+      ". . . . . . project5 project5 project5 project5 "
+      "back3 back3 back3 . . . .  . back4 back4 "
       "back3 back3 back3 . . . . . back4 back4";
     margin-top: 120px;
     gap: 0;
@@ -323,15 +324,15 @@
   .back1 {
     background-image: url(./assests/images/image-geometry_2.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top left;
     grid-area: back1;
     padding: 70%;
   }
 
   .back2 {
-    background-image: url(./assests/images/image-geometry_3.svg);
+    background-image: url(./assests/images/image-geometry_3.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top right;
     grid-area: back2;
     padding-top: 90%;
   }
@@ -839,7 +840,7 @@ label {
 
   .contact-form > ul {
     display: grid;
-    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-columns: 28% 22% 22% 28%;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
       ". user email ."
@@ -851,10 +852,21 @@ label {
 
   .user {
     grid-area: user;
+    margin-top: 0;
+    min-height: 50px;
+  }
+  #name {
+    min-height: 50px;
   }
 
   .email {
     grid-area: email;
+    margin-top: 0;
+    min-height: 50px;
+  }
+
+  #mail {
+    min-height: 50px;
   }
 
   .message {
