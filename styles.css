@@ -364,8 +364,8 @@
 
   .project1 {
     grid-area: project1;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
   }
 
