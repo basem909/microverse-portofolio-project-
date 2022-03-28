@@ -18,14 +18,15 @@ The forth part is applying media queries to the site to make the mobile version 
 
 ## links
 
-- https://basem909.github.io/microverse-portofolio-project/
+- https://basem909.github.io/microverse-portofolio-project-/
   this is the link to the page on internet.
-- https://formspree.io/ the submit destination
+
 - www.github.com a link to github
 - www.twitter.com a link to twitter
 - www.stackoverflow.com a link to stackoverflow
 - www.medium.com a link to medium
 - www.angellist.com a link to angellit
+- https://formspree.io/ the submit destination
 
 ## Authors
 
@@ -44,3 +45,7 @@ The forth part is applying media queries to the site to make the mobile version 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is MIT licensed.
