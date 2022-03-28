@@ -18,7 +18,7 @@ The forth part is applying media queries to the site to make the mobile version 
 
 ## links
 
-- https://basem909.github.io/microverse-portofolio-project/
+- https://basem909.github.io/microverse-portofolio-project-/
   this is the link to the page on internet.
 
 - www.github.com a link to github
