@@ -68,6 +68,7 @@
 .content {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: white;
 }
@@ -86,8 +87,8 @@
 
 .button,
 .button::before {
-  width: 288px;
-  height: 50px;
+  min-width: 288px;
+  min-height: 70px;
   align-self: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -177,7 +178,7 @@
   }
 
   .my-name {
-    font-size: 110px;
+    font-size: 80px;
     padding-right: 15px;
     margin-top: 15%;
     margin-bottom: 50px;
@@ -185,7 +186,7 @@
 
   .paragraph {
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 90px;
   }
 
