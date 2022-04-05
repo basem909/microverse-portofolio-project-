@@ -12,29 +12,28 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <section class="container">
       <header class="upper">
+        <img
+          class="image"
+          src="assests/images/ic_menu.png"
+          alt="the menu icon"
+        />
+        <img
+          class="image2"
+          src="assests/images/Union.svg"
+          alt="the menu icon"
+        />
         <nav class="navigator">
-          <a href="">Hello</a>
-          <a href="">portofolio</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-          <img
-            class="image"
-            src="assests/images/ic_menu.png"
-            alt="the menu icon"
-          />
+          <a href="#hello1" class="nav-link">Hello</a>
+          <a href="#projects" class="nav-link">portofolio</a>
+          <a href="#about1" class="nav-link">About</a>
+          <a href="#contact-form" class="nav-link">Contact</a>
         </nav>
       </header>
-      <section class="hello-content">
+      <section class="hello-content" id="hello1">
         <article class="content">
           <h1 class="my-name">Bassem Shams</h1>
           <p class="paragraph">
@@ -53,7 +52,7 @@
         <div class="back2"></div>
         <div class="back3"></div>
         <div class="back4"></div>
-        <article class="projects">
+        <article class="projects" id="projects">
           <h2 class="header-project">projects</h2>
         </article>
         <article class="project1">
@@ -61,7 +60,7 @@
             <img
               class="image-project"
               src="./assests/images/Rectangle21.png"
-              alt="project image"
+              alt="hands typing on laptop keyboard"
             />
           </div>
           <article class="details-project" id="details-project1">
@@ -88,7 +87,7 @@
           </article>
         </article>
         <article class="project2">
-          <div class="image-project2">
+          <div class="a laptop and a mobile phone aside with screens on">
             <img
               class="image-project"
               src="./assests/images/Rectangle27.png"
@@ -122,7 +121,7 @@
             <img
               class="image-project"
               src="./assests/images/Rectangle211.png"
-              alt="project image"
+              alt="a macbook pro 16 laptop with screen on"
             />
           </div>
           <article class="details-project" id="details-project3">
@@ -151,7 +150,7 @@
             <img
               class="image-project"
               src="./assests/images/Rectangle213.png"
-              alt="project image"
+              alt=" a laptop on a desk"
             />
           </div>
           <article class="details-project" id="details-project4">
@@ -180,7 +179,7 @@
             <img
               class="image-project"
               src="./assests/images/Rectangle214.png"
-              alt="project image"
+              alt="a laptop sit on its edge with screen on"
             />
           </div>
           <article class="details-project" id="details-project5">
@@ -209,7 +208,7 @@
             <img
               class="image-project"
               src="./assests/images/Rectangle215.png"
-              alt="project image"
+              alt="a laptop wit a cell phone lied on the laptop's screen both screens on"
             />
           </div>
           <article class="details-project" id="details-project6">
@@ -237,7 +236,7 @@
       <section class="about-package">
         <article class="package">
           <section class="languages">
-            <h3 class="lang-header">languages</h3>
+            <h2 class="lang-header">languages</h2>
             <ul>
               <li>Javascript (E5/E6)</li>
               <li>Ruby</li>
@@ -246,7 +245,7 @@
             </ul>
           </section>
           <section class="frameworks">
-            <h3 class="frame-header">Frameworks</h3>
+            <h2 class="frame-header">Frameworks</h2>
             <ul>
               <li>Bootstrap</li>
               <li>Ruby on rails</li>
@@ -256,7 +255,7 @@
             </ul>
           </section>
           <section class="skills">
-            <h3 class="skills-header">Skills</h3>
+            <h2 class="skills-header">Skills</h2>
             <ul>
               <li>Codekit</li>
               <li>Codepen</li>
@@ -268,7 +267,7 @@
           <div class="package-background"></div>
         </article>
         <section class="about-container">
-          <h2 class="about-header">About</h2>
+          <h2 class="about-header" id="about1">About</h2>
           <p class="about-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -287,9 +286,9 @@
         </section>
       </section>
       <!--the third part of the project-->
-      <section class="contact">
+      <section class="contact" id="contact-form">
         <article class="introduction-contact">
-          <h3 class="contact-header">Get started</h3>
+          <h2 class="contact-header">Get started</h2>
           <p class="contact-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
@@ -375,5 +374,6 @@
         </article>
       </footer>
     </section>
+    <script src="./app.js"></script>
   </body>
 </html>

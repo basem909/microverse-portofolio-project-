@@ -12,7 +12,7 @@
     background-image: url("./assests/images/image_geometry_1.png");
     background-color: white;
     background-repeat: no-repeat;
-    height: 160px;
+    height: auto;
     display: flex;
     justify-content: end;
     margin-top: 0;
@@ -26,10 +26,61 @@
     align-self: auto;
     margin-right: 16px;
     margin-top: 19px;
+    cursor: pointer;
   }
 
-  .navigator > a {
+  .image2 {
     display: none;
+    width: 28px;
+    height: 20px;
+    align-content: center;
+    align-self: auto;
+    margin-right: 16px;
+    margin-top: 19px;
+    cursor: pointer;
+  }
+
+  .navigator {
+    display: none;
+  }
+
+  .menu-open {
+    display: flex;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 220px;
+    background-image: url("./assests/images/image_geometry_menu_2.svg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .upper-menu-open {
+    background-image: url("./assests/images/image_geometry_menu_1.svg");
+    background-position: top left;
+    background-size: 80%;
+    flex-direction: column;
+  }
+
+  .image-menu-open {
+    display: none;
+  }
+
+  .image-menu-appear {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1a2236;
   }
 }
 
@@ -43,6 +94,10 @@
   }
 
   .image {
+    display: none;
+  }
+
+  .image2 {
     display: none;
   }
 
@@ -68,6 +123,7 @@
 .content {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: white;
 }
@@ -86,8 +142,8 @@
 
 .button,
 .button::before {
-  width: 288px;
-  height: 50px;
+  min-width: 288px;
+  min-height: 70px;
   align-self: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -177,7 +233,7 @@
   }
 
   .my-name {
-    font-size: 110px;
+    font-size: 80px;
     padding-right: 15px;
     margin-top: 15%;
     margin-bottom: 50px;
@@ -185,7 +241,7 @@
 
   .paragraph {
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 90px;
   }
 
