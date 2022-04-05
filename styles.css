@@ -12,7 +12,7 @@
     background-image: url("./assests/images/image_geometry_1.png");
     background-color: white;
     background-repeat: no-repeat;
-    height: 160px;
+    height: auto;
     display: flex;
     justify-content: end;
     margin-top: 0;
@@ -26,10 +26,34 @@
     align-self: auto;
     margin-right: 16px;
     margin-top: 19px;
+    cursor: pointer;
   }
 
-  .navigator > a {
+  .menu-close {
     display: none;
+  }
+  .menu-open {
+    display: flex;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 220px;
+    background-image: url("./assests/images/image_geometry_menu_2.svg");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .upper-menu-open {
+    background-image: url("./assests/images/image_geometry_menu_1.svg");
+    background-position: top left;
+    background-size: 80%;
+    flex-direction: column;
+  }
+  .image-menu-open {
+    align-self: flex-end;
   }
 }
 
