@@ -55,6 +55,13 @@
   .image-menu-open {
     align-self: flex-end;
   }
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #1a2236;
+  }
 }
 
 @media screen and (min-width: 768px) {
