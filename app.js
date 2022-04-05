@@ -20,10 +20,10 @@ xIcon.addEventListener('click', () => {
   xIcon.classList.remove('image-menu-appear');
 });
 
-linkMenu.addEventListener("click", () => {
-  navbar.classList.remove("menu-open");
-  upper.classList.remove("upper-menu-open");
-  hamburgerIcon.classList.remove("image-menu-open");
-  upper.classList.remove("link-menu-open");
-  xIcon.classList.remove("image-menu-appear");
+linkMenu.addEventListener('click', () => {
+  navbar.classList.remove('menu-open');
+  upper.classList.remove('upper-menu-open');
+  hamburgerIcon.classList.remove('image-menu-open');
+  upper.classList.remove('link-menu-open');
+  xIcon.classList.remove('image-menu-appear');
 });
