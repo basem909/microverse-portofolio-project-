@@ -6,11 +6,13 @@ This project is about building a personal portfolio set up and mobile version fi
 and the second part is creating projects exhibition pages and a list of programming languages, skills, and frameworks.
 The third part is the contact form and the links to the social media accounts as well as providing a copy of the cv.
 The forth part is applying media queries to the site to make the mobile version available on different devices and to enhance th UX of the site.
+The bueger menu part aims to create and open a nav menu when clicked on hamburger icon
 
 ## Built With
 
 - HTML
 - CSS
+- Javascript
 - node-modules
 - lighthouse
 - hintweb
@@ -38,9 +40,13 @@ The forth part is applying media queries to the site to make the mobile version 
 
 - GitHub: [@githubhandle](https://github.com/aliveGUY)
 
-👤 **adaobi**
+👤 **Adaobi**
 
 - GitHub: [@githubhandle](https://github.com/adanzeakonobi)
+
+👤 **Stanley**
+
+- GitHub: [@githubhandle](https://github.com/Enekwestanley)
 
 ## Show your support
 
