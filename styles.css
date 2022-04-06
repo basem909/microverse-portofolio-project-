@@ -933,6 +933,18 @@ label {
   display: none;
 }
 
+#error {
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: rgba(
+    rgb(144, 113, 113),
+    rgb(218, 177, 117),
+    rgb(187, 86, 123),
+    0.7
+  );
+}
 
 @media screen and (min-width: 768px) {
   .contact {
