@@ -24,3 +24,14 @@ xIcon.addEventListener('click', closeMenu);
 linkMenu.forEach((link) => {
   link.addEventListener('click', closeMenu);
 });
+
+const email = document.getElementById('mail');
+const form = document.getElementById('contact-form1');
+const messageError = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    messageError.innerText = 'unfortunatlly the message was not submitted, The email address needs to be all small characters';
+  }
+});
