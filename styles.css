@@ -397,13 +397,13 @@
     grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
     grid-template-rows: minmax(300px, auto) auto;
     max-width: 90%;
-    overflow:hidden;
+    overflow: hidden;
   }
   .pop-big {
     grid-column: 1 / span 4;
     width: 100%;
   }
-  .pop-small{
+  .pop-small {
     max-width: 100%;
   }
 }
@@ -609,6 +609,9 @@
 
   #image-project3 {
     grid-area: project3;
+  }
+  .pop-project1 {
+    display: none;
   }
 }
 
@@ -929,6 +932,7 @@ label {
 #ms-lb {
   display: none;
 }
+
 
 @media screen and (min-width: 768px) {
   .contact {
