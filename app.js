@@ -26,7 +26,7 @@ linkMenu.forEach((link) => {
 });
 
 const email = document.getElementById('mail');
-const form = document.getElementById('contact-form');
+const form = document.getElementById('contact-form1');
 const messageError = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {

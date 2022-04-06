@@ -362,6 +362,7 @@
     padding: 20px;
     padding-bottom: 0;
   }
+
   .pop-close {
     align-self: flex-end;
     border: none;
@@ -370,7 +371,7 @@
 
   .pop-heading1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 700 bold;
+    font-weight: 700;
     font-size: 30px;
     color: #1a2236;
     padding-left: 5%;
@@ -399,14 +400,17 @@
     max-width: 90%;
     overflow: hidden;
   }
+
   .pop-big {
     grid-column: 1 / span 4;
     width: 100%;
   }
+
   .pop-small {
     max-width: 100%;
   }
 }
+
 @media screen and (min-width: 768px) {
   .header-project {
     transform: rotate(270deg);
@@ -610,6 +614,7 @@
   #image-project3 {
     grid-area: project3;
   }
+
   .pop-project1 {
     display: none;
   }
@@ -938,12 +943,8 @@ label {
   color: red;
   font-size: 10px;
   font-weight: bold;
-  background-color: rgba(
-    rgb(144, 113, 113),
-    rgb(218, 177, 117),
-    rgb(187, 86, 123),
-    0.7
-  );
+  background-color: rgba(251, 195, 195, 0.5);
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
