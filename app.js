@@ -36,29 +36,28 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-const Name=document.getElementById('name')
+const Name = document.getElementById('name');
 const msg = document.getElementById('msg');
-let formObj={name:'',email:'',message:''}
+const formObj = { name: '', email: '', message: '' };
 let storageItem = JSON.stringify(formObj);
 
-function saveLocal (obj,key) {
-  obj.addEventListener("input", (letter) => {
+function saveLocal(obj, key) {
+  obj.addEventListener('input', (letter) => {
     formObj[key] = letter.target.value;
     storageItem = JSON.stringify(formObj);
-    localStorage.setItem("form", storageItem);
+    localStorage.setItem('form', storageItem);
   });
 }
-saveLocal(Name,'name')
-saveLocal(email,'email');
-saveLocal(msg,'message');
+saveLocal(Name, 'name');
+saveLocal(email, 'email');
+saveLocal(msg, 'message');
 
-let storageItem2 =localStorage.getItem('form')
-let formObj2 = JSON.parse(storageItem2)
-function showLocal (obj,key) {
-  obj.value=formObj2[key]
+const storageItem2 = localStorage.getItem('form');
+const formObj2 = JSON.parse(storageItem2);
+function showLocal(obj, key) {
+  obj.value = formObj2[key];
 }
 
-showLocal(Name, "name");
-showLocal(email, "email");
-showLocal(msg, "message");
-
+showLocal(Name, 'name');
+showLocal(email, 'email');
+showLocal(msg, 'message');
