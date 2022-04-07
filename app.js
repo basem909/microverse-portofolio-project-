@@ -41,22 +41,24 @@ const msg = document.getElementById('msg');
 let formObj={name:'',email:'',message:''}
 let storageItem = JSON.stringify(formObj);
 
-Name.addEventListener('input', letter =>{
- formObj.name =letter.target.value
- storageItem = JSON.stringify(formObj);
- localStorage.setItem("form", storageItem);
+function saveLocal (obj,key) {
+  obj.addEventListener("input", (letter) => {
+    formObj[key] = letter.target.value;
+    storageItem = JSON.stringify(formObj);
+    localStorage.setItem("form", storageItem);
+  });
+}
+saveLocal(Name,'name')
+saveLocal(email,'email');
+saveLocal(msg,'message');
 
-})
-email.addEventListener("input", (letter) => {
-  formObj.email = letter.target.value;
-  storageItem = JSON.stringify(formObj);
-  localStorage.setItem("form", storageItem);
-});
-msg.addEventListener("input", (letter) => {
-  formObj.message = letter.target.value;
-  storageItem = JSON.stringify(formObj);
-  localStorage.setItem("form", storageItem);
-});
+let storageItem2 =localStorage.getItem('form')
+let formObj2 = JSON.parse(storageItem2)
+function showLocal (obj,key) {
+  obj.value=formObj2[key]
+}
 
-
+showLocal(Name, "name");
+showLocal(email, "email");
+showLocal(msg, "message");
 
