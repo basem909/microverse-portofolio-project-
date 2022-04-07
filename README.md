@@ -8,7 +8,7 @@
 - The forth part is applying media queries to the site to make the mobile version available on different devices and to enhance th UX of the site.
 - The bueger menu part aims to create and open a nav menu when clicked on hamburger icon
 - The email validation part aims to add a UI validation to the lower-case letters of email input
-
+- the local storage part aims to save the input data entered by the user into the local storage of the broswer and recreate them again in the form inputs when the site is reopened.
 ## Built With
 
 - HTML
