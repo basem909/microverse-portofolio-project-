@@ -35,3 +35,28 @@ form.addEventListener('submit', (e) => {
     messageError.innerText = 'unfortunatlly the message was not submitted, The email address needs to be all small characters';
   }
 });
+
+const Name=document.getElementById('name')
+const msg = document.getElementById('msg');
+let formObj={name:'',email:'',message:''}
+let storageItem = JSON.stringify(formObj);
+
+Name.addEventListener('input', letter =>{
+ formObj.name =letter.target.value
+ storageItem = JSON.stringify(formObj);
+ localStorage.setItem("form", storageItem);
+
+})
+email.addEventListener("input", (letter) => {
+  formObj.email = letter.target.value;
+  storageItem = JSON.stringify(formObj);
+  localStorage.setItem("form", storageItem);
+});
+msg.addEventListener("input", (letter) => {
+  formObj.message = letter.target.value;
+  storageItem = JSON.stringify(formObj);
+  localStorage.setItem("form", storageItem);
+});
+
+
+
