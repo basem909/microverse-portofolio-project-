@@ -356,6 +356,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .pop-project1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .pop-header {
     display: flex;
     justify-content: end;
@@ -394,10 +399,11 @@
 
   .pop-image1 {
     display: grid;
-    padding: 5%;
-    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: minmax(300px, auto) auto;
-    max-width: 90%;
+    max-width: 100%;
     overflow: hidden;
   }
 
@@ -408,6 +414,52 @@
 
   .pop-small {
     max-width: 100%;
+  }
+
+  .pop-paragraph1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .pop-button,
+  .pop-button::before {
+    width: 90%;
+    height: 50px;
+    align-self: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a2236;
+    background-color: white;
+    border: 0.33px solid #1a2236;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+  .pop-button:hover {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 3px;
+    box-sizing: border-box;
+  }
+
+  .pop-button:focus {
+    color: white;
+    background-color: #1a2236;
+    border: solid white 1px;
+    box-sizing: border-box;
   }
 }
 
