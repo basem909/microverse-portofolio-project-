@@ -477,6 +477,7 @@
     display: none;
     justify-content: space-around;
   }
+
   .link-pop {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -842,6 +843,7 @@
     justify-content: space-around;
     padding-right: 15%;
   }
+
   .link-pop {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
