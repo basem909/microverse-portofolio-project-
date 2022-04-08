@@ -356,11 +356,16 @@
 }
 
 @media screen and (max-width: 767px) {
+  .popup-window {
+    display: none;
+  }
+
   .pop-project1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
+
   .pop-header {
     display: flex;
     justify-content: end;
@@ -688,6 +693,7 @@
 
   .popup-window {
     background-color: #1a2236;
+    display: none;
   }
 
   .pop-project1 {
@@ -777,7 +783,7 @@
 
   .pop-button,
   .pop-button::before {
-   width: 30%;
+    width: 30%;
     height: 50px;
     align-self: flex-start;
     font-family: "Poppins", sans-serif;
@@ -811,19 +817,19 @@
   }
 
   #pop-button2,
-  #pop-button2::before{
+  #pop-button2::before {
     color: white;
     background-color: #1a2236;
     border: 0.33px solid white;
   }
 
-  #pop-button2:hover{
+  #pop-button2:hover {
     color: #1a2236;
     background-color: white;
     border: solid #1a2236 3px;
   }
 
-  #pop-button2:focus{
+  #pop-button2:focus {
     color: #1a2236;
     background-color: white;
     border: solid #1a2236 1px;

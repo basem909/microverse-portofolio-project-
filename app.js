@@ -70,7 +70,7 @@ showLocal(msg, 'message');
 //array of project objects
 const popUp = [
   {
-    Title: "project name goes here",
+    Title: "Hi guys this Bassem",
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle21.png",
     Description:
@@ -126,7 +126,8 @@ const popUp = [
 ];
 
 // the project card layout
-
+const projectSection = document.querySelector('.project')
+const window1 = document.querySelector('.popup-window')
 const container = document.querySelector('.pop-container');
 const header1 = document.createElement('div');
 const xButton = document.createElement('button');
@@ -198,6 +199,7 @@ container.classList.toggle('pop-project1')
 header1.classList.toggle('pop-header')
 xButton.classList.toggle('pop-close')
 head.classList.toggle('pop-heading1')
+head.setAttribute('id', 'heading1');
 list.classList.toggle('pop-ulist1')
 li1.classList.toggle('pop-li1')
 li2.classList.toggle('pop-li1');
@@ -216,3 +218,23 @@ sourceBtn.setAttribute("id", "pop-button2");
 footer.classList.toggle('footer-pop')
 seeNext.classList.toggle('link-pop')
 seePrevious.classList.toggle('link-pop')
+
+//the pop up function
+const btn1 = document.getElementById('btn')
+btn1.addEventListener('click',() => {
+window1.style.display = 'block'
+projectSection.style.display = 'none'
+card(1);
+
+})
+xButton.addEventListener('click', () =>{
+  window1.style.display = "none";
+  projectSection.style.display = "block";
+})
+function card (no) {
+  head.textContent = popUp[no].Title
+  li1.textContent = popUp[no].Technologies[0]
+  li2.textContent = popUp[no].Technologies[1]
+  li3.textContent = popUp[no].Technologies[2]
+  imgBig.setAttribute('src',popUp[no].Image)
+}
