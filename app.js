@@ -41,8 +41,8 @@ const msg = document.getElementById('msg');
 let formObj = { name: '', email: '', message: '' };
 let storageItem = JSON.stringify(formObj);
 
-function saveLocal(obj, key) {
-  obj.addEventListener('input', (letter) => {
+function saveLocal(element, key) {
+  element.addEventListener('input', (letter) => {
     formObj[key] = letter.target.value;
     storageItem = JSON.stringify(formObj);
     localStorage.setItem('form', storageItem);
@@ -74,7 +74,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle21.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -83,7 +83,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle27.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -92,7 +92,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle211.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -101,7 +101,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle213.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -110,7 +110,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle214.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -119,7 +119,7 @@ const popUp = [
     Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
     Image: "assests/images/Rectangle215.png",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!<br/><br/>br Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
     LinkLive: "https://basem909.github.io/portfolio/",
     LinkSource: "https://github.com/",
   },
@@ -130,10 +130,12 @@ const projectSection = document.querySelector('.project')
 const window1 = document.querySelector('.popup-window')
 const container = document.querySelector('.pop-container');
 const header1 = document.createElement('div');
-const xButton = document.createElement('button');
+const xButton = document.createElement('a');
 const xImage = document.createElement('img');
+xButton.setAttribute('href','#projects')
 xButton.appendChild(xImage);
 header1.appendChild(xButton);
+header1.setAttribute('id','header12')
 container.appendChild(header1);
 xImage.setAttribute('src','assests/images/Union.svg')
 const head = document.createElement('h3')
@@ -220,21 +222,93 @@ seeNext.classList.toggle('link-pop')
 seePrevious.classList.toggle('link-pop')
 
 //the pop up function
-const btn1 = document.getElementById('btn')
+const btn1 = document.getElementById('btn');
+const btn11 = document.getElementById('btn1')
+const btn2 = document.getElementById("btn2-1");
+const btn22 = document.getElementById("btn2-2");
+const btn3 = document.getElementById("btn3-1");
+const btn33 = document.getElementById("btn3-2");
+const btn4 = document.getElementById("btn4-1");
+const btn44 = document.getElementById("btn4-2");
+const btn5 = document.getElementById("btn5-1");
+const btn55 = document.getElementById("btn5-2");
+const btn6 = document.getElementById("btn6-1");
+const btn66 = document.getElementById("btn6-2");
+
+function card(no) {
+  head.textContent = popUp[no].Title;
+  li1.textContent = popUp[no].Technologies[0];
+  li2.textContent = popUp[no].Technologies[1];
+  li3.textContent = popUp[no].Technologies[2];
+  imgBig.setAttribute("src", popUp[no].Image);
+  imgSmall1.setAttribute("src", popUp[no].Image);
+  imgSmall2.setAttribute("src", popUp[no].Image);
+  imgSmall3.setAttribute("src", popUp[no].Image);
+  imgSmall4.setAttribute("src", popUp[no].Image);
+  popParagraph.textContent = popUp[no].Description;
+}
+xButton.addEventListener('click', () =>{
+  window1.style.display = "none";
+  projectSection.style.display = "grid";
+})
+
 btn1.addEventListener('click',() => {
 window1.style.display = 'block'
 projectSection.style.display = 'none'
-card(1);
+card(0);})
 
+btn11.addEventListener('click',() => {
+window1.style.display = 'block';
+projectSection.style.display = 'none';
+card(0);
 })
-xButton.addEventListener('click', () =>{
-  window1.style.display = "none";
-  projectSection.style.display = "block";
+btn2.addEventListener('click',() => {
+window1.style.display = 'block';
+projectSection.style.display = 'none';
+card(1);
 })
-function card (no) {
-  head.textContent = popUp[no].Title
-  li1.textContent = popUp[no].Technologies[0]
-  li2.textContent = popUp[no].Technologies[1]
-  li3.textContent = popUp[no].Technologies[2]
-  imgBig.setAttribute('src',popUp[no].Image)
-}
+btn22.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(1);
+});
+btn3.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(2);
+});
+btn33.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(2);
+});
+btn4.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(3);
+});
+btn44.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(3);
+});
+btn5.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(4);
+});
+btn55.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(4);
+});
+btn6.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(5);
+});
+btn66.addEventListener("click", () => {
+  window1.style.display = "block";
+  projectSection.style.display = "none";
+  card(5);
+});

@@ -335,6 +335,7 @@
   display: inline-flex;
   justify-content: space-around;
   transition: background-color 0.5s, color 0.5s;
+  text-decoration: none;
 }
 
 .button-project:hover {
@@ -623,6 +624,7 @@
     align-items: center;
     display: inline-flex;
     justify-content: space-around;
+    text-decoration: none;
   }
 
   .button-project768:hover {
