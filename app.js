@@ -38,7 +38,7 @@ form.addEventListener('submit', (e) => {
 
 const Name = document.getElementById('name');
 const msg = document.getElementById('msg');
-let formObj = { name: '', email: '', message: '' };
+let formObj = { name1: '', email: '', message: '' };
 let storageItem = JSON.stringify(formObj);
 
 function saveLocal(element, key) {
@@ -48,14 +48,14 @@ function saveLocal(element, key) {
     localStorage.setItem('form', storageItem);
   });
 }
-saveLocal(Name, 'name');
+saveLocal(Name, 'name1');
 saveLocal(email, 'email');
 saveLocal(msg, 'message');
 
 const storageItem2 = localStorage.getItem('form');
 const formObj2 = JSON.parse(storageItem2);
 formObj = {
-  name: formObj2.name,
+  name1: formObj2.name1,
   email: formObj2.email,
   message: formObj2.message,
 };
@@ -63,7 +63,7 @@ function showLocal(obj, key) {
   obj.value = formObj2[key];
 }
 
-showLocal(Name, 'name');
+showLocal(Name, 'name1');
 showLocal(email, 'email');
 showLocal(msg, 'message');
 
