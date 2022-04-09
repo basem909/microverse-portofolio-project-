@@ -48,9 +48,9 @@ function saveLocal(element, key) {
     localStorage.setItem('form', storageItem);
   });
 }
-saveLocal(Name, 'name1');
-saveLocal(email, 'email');
-saveLocal(msg, 'message');
+saveLocal(Name, 'one');
+saveLocal(email, 'two');
+saveLocal(msg, 'three');
 
 const storageItem2 = localStorage.getItem('form');
 const formObj2 = (storageItem2 === null) ? [] : JSON.parse(storageItem2);
