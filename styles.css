@@ -509,7 +509,7 @@
 
   .project {
     grid-template-columns: 16.2% 16.1% 17.7% 17.7% 16.1% 16.2%;
-    grid-template-rows: auto 270px 270px 270px 270px;
+    grid-template-rows: auto 290px 270px 270px 270px;
     grid-template-areas:
       "projects projects project1 project1 project1 project1"
       "project3 project3 back1 back1 project6 project6"

@@ -9,6 +9,7 @@
 - The bueger menu part aims to create and open a nav menu when clicked on hamburger icon
 - The email validation part aims to add a UI validation to the lower-case letters of email input
 - the local storage part aims to save the input data entered by the user into the local storage of the broswer and recreate them again in the form inputs when the site is reopened.
+- the pop-up windows part aims to show a pop up window once the user clicks on the see more button at project section
 ## Built With
 
 - HTML
