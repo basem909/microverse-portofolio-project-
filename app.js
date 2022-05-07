@@ -70,58 +70,58 @@ showLocal(msg, 'message');
 // array of project objects
 const popUp = [
   {
-    Title: "pyramids new year concert project",
-    Technologies: ["HTML", "CSS", "Javascript"],
-    Image: "assests/images/concert-project.png",
+    Title: 'pyramids new year concert project',
+    Technologies: ['HTML', 'CSS', 'Javascript'],
+    Image: 'assests/images/concert-project.png',
     Description:
-      "The new year concert project is a site to host and give inf about the event that will be held on the new year eve at the pyramids of Giza. The project has different sections of home, the stars, the sponsors section. I used HTML, CSS, and JavaScript.",
-    LinkLive: "https://basem909.github.io/the-concert-project/",
-    LinkSource: "https://github.com/basem909/the-concert-project",
+      'The new year concert project is a site to host and give inf about the event that will be held on the new year eve at the pyramids of Giza. The project has different sections of home, the stars, the sponsors section. I used HTML, CSS, and JavaScript.',
+    LinkLive: 'https://basem909.github.io/the-concert-project/',
+    LinkSource: 'https://github.com/basem909/the-concert-project',
   },
   {
-    Title: "project name goes here",
-    Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
-    Image: "assests/images/Rectangle27.png",
+    Title: 'project name goes here',
+    Technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
+    Image: 'assests/images/Rectangle27.png',
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
-    LinkLive: "https://basem909.github.io/portfolio/",
-    LinkSource: "https://github.com/",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!',
+    LinkLive: 'https://basem909.github.io/portfolio/',
+    LinkSource: 'https://github.com/',
   },
   {
-    Title: "project name goes here",
-    Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
-    Image: "assests/images/Rectangle211.png",
+    Title: 'project name goes here',
+    Technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
+    Image: 'assests/images/Rectangle211.png',
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
-    LinkLive: "https://basem909.github.io/portfolio/",
-    LinkSource: "https://github.com/",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!',
+    LinkLive: 'https://basem909.github.io/portfolio/',
+    LinkSource: 'https://github.com/',
   },
   {
-    Title: "project name goes here",
-    Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
-    Image: "assests/images/Rectangle213.png",
+    Title: 'project name goes here',
+    Technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
+    Image: 'assests/images/Rectangle213.png',
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
-    LinkLive: "https://basem909.github.io/portfolio/",
-    LinkSource: "https://github.com/",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!',
+    LinkLive: 'https://basem909.github.io/portfolio/',
+    LinkSource: 'https://github.com/',
   },
   {
-    Title: "project name goes here",
-    Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
-    Image: "assests/images/Rectangle214.png",
+    Title: 'project name goes here',
+    Technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
+    Image: 'assests/images/Rectangle214.png',
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
-    LinkLive: "https://basem909.github.io/portfolio/",
-    LinkSource: "https://github.com/",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!',
+    LinkLive: 'https://basem909.github.io/portfolio/',
+    LinkSource: 'https://github.com/',
   },
   {
-    Title: "project name goes here",
-    Technologies: ["HTML/CSS", "Ruby on rails", "Javascript"],
-    Image: "assests/images/Rectangle215.png",
+    Title: 'project name goes here',
+    Technologies: ['HTML/CSS', 'Ruby on rails', 'Javascript'],
+    Image: 'assests/images/Rectangle215.png',
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!",
-    LinkLive: "https://basem909.github.io/portfolio/",
-    LinkSource: "https://github.com/",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque repudiandae tempora nisi minima non beatae aspernatur praesentium ipsa? Quia quidem debitis error tenetur, ea eos facere natus tempor neque ducimus doloribus assumenda aspernatur iusto soluta enim ataccusantium impedit ratione quasi perferendis cum hic esse ipsum sit!\n \n Atque corrupti unde impedit commodi voluptate cum inventore tenetur sequi accusantium fugiat consectetur provident voluptatem blanditiis quae excepturi repudiandae sunt rem ipsam, magni voluptas ullam ab nulla vero exercitationem! Tempora, consequatur velit! Hic aut explicabo voluptates sed ipsum eos praesentium a inventore fuga mollitia nostrum, ducimus incidunt! Quos quo in rerum blanditiis perferendis!',
+    LinkLive: 'https://basem909.github.io/portfolio/',
+    LinkSource: 'https://github.com/',
   },
 ];
 
@@ -181,12 +181,13 @@ liveBtn.textContent = 'See live';
 liveBtn.appendChild(tealLink);
 sourceBtn.textContent = 'See source';
 sourceBtn.setAttribute(
-  "href",
-  "https://github.com/basem909/the-concert-project"
+  'href',
+  'https://github.com/basem909/the-concert-project',
 );
 liveBtn.setAttribute(
-  "href",
-'https://basem909.github.io/the-concert-project/');
+  'href',
+  'https://basem909.github.io/the-concert-project/',
+);
 btnBox.appendChild(liveBtn);
 btnBox.appendChild(sourceBtn);
 container.appendChild(btnBox);
