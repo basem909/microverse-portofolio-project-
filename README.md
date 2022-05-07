@@ -23,8 +23,9 @@
 ## links
 
 - https://basem909.github.io/microverse-portofolio-project-/
-  this is the link to the page on internet.
-
+  this is the live demo of the project.
+- https://github.com/basem909/microverse-portofolio-project-
+  this is the code source of the project.
 - www.github.com a link to github
 - www.twitter.com a link to twitter
 - www.stackoverflow.com a link to stackoverflow
